@@ -16,5 +16,7 @@ public class VerifyLoginpage_tc001 extends BaseClass{
 		Library.custom_senkeys(loginpagepom.getEmailid(), "Suhas@123");
 		Library.custom_senkeys(loginpagepom.getPassword(), "123456");
 		Library.custom_click(loginpagepom.getLogbtn());
+
+		// Github demo practice
 	}
 }
